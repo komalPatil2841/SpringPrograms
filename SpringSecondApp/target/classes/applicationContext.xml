@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.mouritech.springframework.secondapp"/>
+    <!--  bean(s) definition  -->
+    <bean id="quotationService" class="com.mouritech.springframework.secondapp.Quotation">
+            <property name="quote" value="A Positive mindset brings positive things"></property>
+    </bean>
+    <bean id="greetingService" class="com.mouritech.springframework.secondapp.Greeting">
+            <property name="greet" value=" Good Morning Friends!"></property>
+    </bean>
+    <bean id="empService" class="com.mouritech.springframework.secondapp.Employee">
+            <property name="empid" value="125"></property>
+            <property name="empname" value="Ramesh Patil"></property>
+    </bean>
+    <bean id="customerService" class="com.mouritech.springframework.secondapp.Customer">
+            <property name="custid" value="129"></property>
+            <property name="custname" value="Ramesh Patil"></property>
+            <property name="custmob" value="7845123695"></property>
+            <property name="custemail" value="Ramesh@gmail.com"></property>
+    </bean>
+
+ </beans>
