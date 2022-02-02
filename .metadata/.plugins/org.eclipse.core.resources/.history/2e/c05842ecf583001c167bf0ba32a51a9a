@@ -1,0 +1,35 @@
+package com.mouritech.springframework.firstapp;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class SpringFirstMain {
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		
+		Quotation quotation = (Quotation) context.getBean("quotationService");
+		String a = quotation.getQuote();
+		System.out.println(a);
+		
+		Greeting greetings = (Greeting) context.getBean("greetingService");
+		String b = greetings.getGreet();
+		System.out.println(b);
+		
+
+		Employee emp = (Employee) context.getBean("empService");
+		System.out.println(emp);
+		System.out.println(emp.getEmpid());
+		emp.setEmpid(456);
+		System.out.println(emp.getEmpname());
+		System.out.println(emp.getEmpid());
+
+		Customer customerService = (Customer) context.getBean("customerService");
+		System.out.println(customerService);
+		System.out.println(customerService.getCustid());
+		System.out.println(customerService.getCustname());
+		System.out.println(customerService.getCustmob());
+		System.out.println(customerService.getCustemail());
+		
+		
+	}
+}

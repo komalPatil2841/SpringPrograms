@@ -1,0 +1,5 @@
+package com.mouritech.springframework.firstapp;
+
+public class Employee {
+
+}
