@@ -5,5 +5,10 @@
 		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\komalp\Downloads\SpringFrameworkPrograms-main (2)\SpringFrameworkPrograms-main\FirstSpringMVCApp"/>
+			<item value="D:\SpringWorkplace\SpringPrograms\FirstSpringMVCApp"/>
+			<item value="C:\Users\komalp\Downloads\SpringFrameworkPrograms-main\SpringFrameworkPrograms-main\SpringDependencyInjectionExample"/>
+		</list>
 	</section>
 </section>

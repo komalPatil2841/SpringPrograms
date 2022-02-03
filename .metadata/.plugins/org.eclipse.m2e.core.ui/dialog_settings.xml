@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\SpringWorkplace\SpringPrograms\SpringFirstApp\src\main\java\com\mouritech\springframework\firstapp\SpringFirstMain.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -44,10 +45,13 @@
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
 			<item value="com.mouritech.springframework"/>
+			<item value="com.mouritech.springframework.secondapp"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SpringDependencyInjectionDemo"/>
+			<item value="SpringSecondApp"/>
 			<item value="SpringFirstApp"/>
 			<item value="FirstSpringApp"/>
 		</list>
