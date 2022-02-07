@@ -19,4 +19,6 @@
     <fullyQualifiedTypeName name="com.mouritech.firstspringmvcapp.model.Greetings"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.EnableWebMvc"/>
+    <fullyQualifiedTypeName name="com.mouritech.springmvc.cms.model.Customer"/>
+    <fullyQualifiedTypeName name="com.mouritech.sellermanagementsystemwithrestcontroller.service.SellerService"/>
 </qualifiedTypeNameHistroy>
